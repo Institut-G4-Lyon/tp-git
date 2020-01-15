@@ -1,0 +1,14 @@
+before_script:
+  - npm install
+
+lint:
+  script:
+    - npm run lint
+
+format:
+  script:
+    - npm run format
+
+test:
+  script:
+    - npm run test
