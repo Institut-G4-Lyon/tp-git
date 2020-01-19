@@ -1,5 +1,6 @@
 <?php
 
-function main() {
-    return "Corrige moi";
+function main()
+{
+    return "Joyeux Noël";
 }
