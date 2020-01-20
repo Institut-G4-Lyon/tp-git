@@ -1,0 +1,13 @@
+image: php:7.4
+
+cache:
+  paths:
+    - vendor/
+
+before_script:
+  - composer install
+
+test:
+  - phpunit IndexTest.php
+  - php-cs-fixer fix --verbose --dry-run Index.php
+  - php-cs-fixer fix Index.php

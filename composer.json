@@ -2,9 +2,9 @@
   "name": "machu/tp-git",
   "type": "project",
   "scripts": {
-    "test": "vendor/bin/phpunit IndexTest.php",
-    "lint": "vendor/bin/php-cs-fixer fix --verbose --dry-run Index.php",
-    "format": "vendor/bin/php-cs-fixer fix Index.php"
+    "test": "phpunit IndexTest.php",
+    "lint": "php-cs-fixer fix --verbose --dry-run Index.php",
+    "format": "php-cs-fixer fix Index.php"
   },
   "require": {},
   "require-dev": {
